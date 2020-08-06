@@ -1,7 +1,8 @@
 
 import React, { Component } from 'react';
 import Navbar from './Navbar';
-import {Aside, Contain} from './Aside';
+import Aside from './Aside';
+import Contain from './Content'
 
 export default class Container extends Component {
 	render() {
