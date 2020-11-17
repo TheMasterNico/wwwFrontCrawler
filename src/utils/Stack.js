@@ -14,7 +14,7 @@ export default class Stack {
 	}
 
 	isEmpty() {
-		return this.top == null;
+		return this.size === 1; // because the first item is the main categories
 	}
 
 	getTop() {
